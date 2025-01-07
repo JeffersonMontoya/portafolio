@@ -1,4 +1,4 @@
-import { Github, Facebook, Mail,  HomeIcon, UserRound, CodeSquare, BookText   , Crop  , Pencil , Computer , Rocket , Book , Code , Database} from "lucide-react"; 
+import { Github, Facebook, Mail,  HomeIcon, UserRound, CodeSquare, BookText   , Crop  , Pencil , Computer , Rocket , Book , Code , Database , Youtube , Linkedin ,  Twitter , Rss , Twitch } from "lucide-react"; 
 
 export const itemsNavbar = [
   {
@@ -29,21 +29,30 @@ export const itemsNavbar = [
 
 export const socialNetworks = [
   {
-    id: 1,
-    logo: <Mail size={32} strokeWidth={1} />,  
-    src: "#!" 
+      id: 1,
+      logo: <Youtube size={30} strokeWidth={1} />,
+      src: "#!",
   },
   {
-    id: 2,
-    logo: <Github size={32} strokeWidth={1} />,  
-    src: "#!" 
+      id: 2,
+      logo: <Linkedin size={30} strokeWidth={1} />,
+      src: "#!",
   },
-  ,
   {
-    id: 3,
-    logo: <Facebook size={32} strokeWidth={1} />,  
-    src: "#!" 
-  }
+      id: 3,
+      logo: <Twitter size={30} strokeWidth={1} />,
+      src: "#!",
+  },
+  {
+      id: 4,
+      logo: <Rss size={30} strokeWidth={1} />,
+      src: "#!",
+  },
+  {
+      id: 5,
+      logo: <Twitch size={30} strokeWidth={1} />,
+      src: "#!",
+  },
 ];
 
 export const dataCounter = [
