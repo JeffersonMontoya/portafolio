@@ -1,7 +1,6 @@
 'use client'
 
 import Introduction from '@/components/Introduction'
-import { Particulas } from '@/components/Particulas'
 import TransitionPage from '@/components/TransitionPage'
 
 export default function Home () {
@@ -9,7 +8,7 @@ export default function Home () {
     <main>
       <TransitionPage />
       <div className='flex bg-no-repeat bg-gradient-cover '>
-        <Particulas />
+        
         
         <Introduction />
         

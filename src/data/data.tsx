@@ -156,20 +156,28 @@ export const dataPortfolio = [
     title: "CRM",
     image: "/crm.jpeg",
     urlGithub: "https://github.com/Alexsanta045/AndesCobra-Front",
-    technologies: ["Next.js", "Django", "PostgreSQL"], // Tecnologías utilizadas
+    technologies: ["Next.js", "Django", "PostgreSQL"],
   },
   {
     id: 2,
     title: "Cesde",
     image: "/cesde.jpeg",
     urlGithub: "https://github.com/JeffersonMontoya/cesde",
-    technologies: ["Django", "Python", "PostgreSQL"], // Tecnologías utilizadas
+    technologies: ["Django", "Python", "PostgreSQL"], 
   },
   {
     id: 3,
     title: "Portafolio",
     image: "/portafolio.jpeg",
     urlGithub: "https://github.com/JeffersonMontoya/portafolio",
-    technologies: ["Next.js", "React", "Node.js"], // Tecnologías utilizadas
+    technologies: ["Next.js" , "TypeScript", "Tailwind"], 
   },
+  {
+    id: 4,
+    title: "Gesationes Globales",
+    image: "/gestiones-globales.jpeg",
+    urlGithub: "https://gestionesglobales-git-main-yefers-projects-929642a3.vercel.app/",
+    technologies: ["Next.js" , "TypeScript", "Tailwind"], 
+
+  }
 ];

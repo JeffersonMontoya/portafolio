@@ -22,16 +22,17 @@ const Introduction = () => {
 
           <div className="w-full lg:w-1/2 text-white space-y-6 sm:space-y-8">
             <div>
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold leading-relaxed sm:leading-relaxed lg:leading-relaxed text-center lg:text-left">
-                Desarrollador de software con experiencia en optimización de
-                procesos y creación de soluciones internas. Trabajé en
-                Andes-BPO, contribuyendo a la automatización de procesos y al
-                desarrollo de un CRM de cobros. Manejo tecnologías como{" "}
-                <span className="font-semibold">Laravel</span>,{" "}
-                <span className="font-semibold">Next.js</span>,{" "}
-                <span className="font-semibold">MySQL</span> y{" "}
-                <span className="font-semibold">Django</span>, enfocado en
-                soluciones eficientes y personalizadas.
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold leading-relaxed text-center lg:text-left">
+                Desarrollador de software con experiencia de un año en optimización de
+                procesos, automatización de tareas y creación de soluciones
+                internas. Participé en
+                <strong> Andes-BPO</strong>, donde contribuí a la automatización
+                de procesos y al desarrollo de un{" "}
+                <strong>CRM para gestión de cobros</strong>. Además, he
+                trabajado de manera <strong>freelance</strong>, gestionando
+                proyectos de principio a fin, desde el levantamiento de
+                requisitos hasta la entrega final, adaptándome a las necesidades
+                de cada cliente
               </h2>
             </div>
 
