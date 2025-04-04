@@ -155,7 +155,7 @@ export const dataPortfolio = [
     id: 1,
     title: "CRM",
     image: "/crm.jpeg",
-    urlGithub: "https://github.com/Alexsanta045/AndesCobra-Back/tree/main",
+    urlGithub: "https://github.com/Alexsanta045/AndesCobra-Back",
     technologies: ["Next.js", "Django", "PostgreSQL"],
   },
   {
