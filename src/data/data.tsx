@@ -176,7 +176,7 @@ export const dataPortfolio = [
     id: 4,
     title: "Gesationes Globales",
     image: "/gestiones-globales.jpeg",
-    urlGithub: "https://gestionesglobales-git-main-yefers-projects-929642a3.vercel.app/",
+    urlGithub: "https://github.com/JeffersonMontoya/gestionesglobales",
     technologies: ["Next.js" , "TypeScript", "Tailwind"], 
 
   }
