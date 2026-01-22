@@ -191,7 +191,7 @@ export const dataPortfolio = [
   {
     id: 4,
     title: "Inventario con firerbase",
-    image: "/gestiones-globales.jpeg",
+    image: "/inventario.jpeg",
     urlGithub: "https://github.com/JeffersonMontoya/inventario-vite.git",
     technologies: ["Vue Js" , "Firebase", "Tailwind"], 
 
