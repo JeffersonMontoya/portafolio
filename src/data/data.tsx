@@ -136,28 +136,32 @@ export const dataAboutPage = [
 
 
 
+
+
 export const serviceData = [
   {
     icon: <Computer />,
     title: "Desarrollo Frontend",
     description:
-      "Creación de interfaces modernas y reactivas utilizando Vue.js y React, priorizando la velocidad y la experiencia del usuario.",
+      "Interfaces modernas y reactivas con Vue.js y React, enfocadas en rendimiento y experiencia de usuario.",
   },
   {
-    icon: <Settings />, 
+    icon: <Settings />,
     title: "Optimización de Procesos",
     description:
-      "Automatización de tareas repetitivas y flujos de trabajo internos para mejorar la eficiencia operativa de las empresas.",
+      "Automatización de flujos de trabajo y tareas repetitivas para maximizar la eficiencia operativa.",
   },
   {
     icon: <Code />,
     title: "Backend & APIs",
-    description: "Desarrollo de lógica de servidor robusta y APIs escalables utilizando Node.js y arquitecturas modernas.",
+    description:
+      "Creación de lógica de servidor y APIs escalables con Node.js bajo arquitecturas modernas.",
   },
   {
     icon: <Database />,
-    title: "Soluciones Cloud & Real-time",
-    description: "Implementación de bases de datos y autenticación con Firebase, garantizando datos sincronizados en tiempo real.",
+    title: "Cloud & Real-time",
+    description:
+      "Bases de datos y autenticación con Firebase, garantizando sincronización de datos en tiempo real.",
   },
 ];
 
