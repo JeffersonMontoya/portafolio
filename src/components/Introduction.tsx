@@ -23,16 +23,14 @@ const Introduction = () => {
           <div className="w-full lg:w-1/2 text-white space-y-6 sm:space-y-8">
             <div>
               <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold leading-relaxed text-center lg:text-left">
-                Desarrollador de software con experiencia de un año en optimización de
-                procesos, automatización de tareas y creación de soluciones
-                internas. Participé en
-                <strong> Andes-BPO</strong>, donde contribuí a la automatización
-                de procesos y al desarrollo de un{" "}
-                <strong>CRM para gestión de cobros</strong>. Además, he
-                trabajado de manera <strong>freelance</strong>, gestionando
-                proyectos de principio a fin, desde el levantamiento de
-                requisitos hasta la entrega final, adaptándome a las necesidades
-                de cada cliente
+                Desarrollador Fullstack apasionado por la eficiencia operativa y
+                la automatización. Con experiencia transformando procesos
+                manuales en soluciones digitales escalables, he desarrollado
+                desde CRMs especializados para gestión de cobros hasta
+                arquitecturas robustas utilizando Vue.js y Firebase mi enfoque
+                combina la agilidad del trabajo freelance con el rigor técnico
+                corporativo, garantizando productos que no solo funcionan, sino
+                que optimizan el negocio.
               </h2>
             </div>
 

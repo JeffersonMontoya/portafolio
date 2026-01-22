@@ -15,16 +15,19 @@ const ServicesPage = () => {
             Mis <span className="font-bold text-secondary"> servicios.</span>
           </h1>
           <p className="mb-5 text-xl text-gray-300 text-center md:text-left">
-            Creo sitios web y aplicaciones atractivas y funcionales usando
-            <span className="font-semibold"> Next.js</span> con
-            <span className="font-semibold"> TypeScript</span> y
-            <span className="font-semibold"> Tailwind CSS</span>. Me enfoco en
-            diseñar interfaces intuitivas y responsivas que reflejan la
-            identidad de marca de mis clientes y mejoran su presencia en línea.
-            También desarrollo <span className="font-semibold">API REST</span>{" "}
-            utilizando
-            <span className="font-semibold"> Django</span> (con Python) y
-            <span className="font-semibold"> Laravel</span>
+            Creo aplicaciones web de alto rendimiento utilizando
+            <span className="font-semibold text-white"> Vue.js </span> y
+            <span className="font-semibold text-white"> React </span> con
+            <span className="font-semibold text-white"> Tailwind CSS</span>. Me
+            especializo en diseñar interfaces intuitivas que se integran con
+            backends robustos en
+            <span className="font-semibold text-white"> Node.js </span> y
+            soluciones
+            <span className="font-semibold text-white">
+              {" "}
+              Serverless con Firebase
+            </span>
+            , asegurando escalabilidad y una experiencia de usuario fluida.
           </p>
 
           <div className="text-center">
