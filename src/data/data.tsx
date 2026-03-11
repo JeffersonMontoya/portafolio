@@ -19,7 +19,7 @@ import {
   Rss,
   Twitch,
   Instagram,
-  Settings
+  Settings,
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -125,7 +125,7 @@ export const dataAboutPage = [
     date: "Ago 2021",
   },
   {
-    id: 4, 
+    id: 4,
     title: "Desarrollador Full Stack (Prueba Técnica)",
     subtitle: "Sistema de Inventario - Proceso de Selección",
     description:
@@ -133,10 +133,6 @@ export const dataAboutPage = [
     date: "Dic 2024",
   },
 ];
-
-
-
-
 
 export const serviceData = [
   {
@@ -168,32 +164,37 @@ export const serviceData = [
 export const dataPortfolio = [
   {
     id: 1,
-    title: "CRM",
-    image: "/crm.jpeg",
-    urlGithub: "https://github.com/Alexsanta045/AndesCobra-Back",
-    technologies: ["Next.js", "Django", "PostgreSQL"],
+    title: "Backend Scalable Architecture (Campaign API)",
+    image: "/api-campaign.jpeg", // Asegúrate de subir una imagen representativa (puede ser el diagrama de capas)
+    urlGithub: "https://github.com/JeffersonMontoya/apify-campaign-api.git",
+    technologies: [
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "Zod",
+      "Clean Architecture",
+    ],
   },
+
   {
     id: 2,
-    title: "Portafolio",
-    image: "/portafolio.jpeg",
-    urlGithub: "https://github.com/JeffersonMontoya/portafolio",
-    technologies: ["Next.js" , "TypeScript", "Tailwind"], 
+    title: "Gelato Pro Sistema POS y Gestión de inventario de alta presición",
+    image: "/GelatoPro.jpeg", // Asegúrate de subir una imagen representativa (puede ser el diagrama de capas)
+    urlGithub: "https://github.com/JeffersonMontoya/inventario-vite.git",
+    technologies: [
+      "Vue js ",
+      "Composition API",
+      "Vite",
+      "Firebase Auth",
+      "Tailwind CSS",
+    ],
   },
   {
     id: 3,
-    title: "Gesationes Globales",
-    image: "/gestiones-globales.jpeg",
-    urlGithub: "https://github.com/JeffersonMontoya/gestionesglobales",
-    technologies: ["Next.js" , "TypeScript", "Tailwind"], 
-
+    title: "Gestor de Tareas - Arquitectura Modular",
+    image: "/GestorTareas.jpeg",
+    urlGithub: "https://github.com/JeffersonMontoya/tu-repo-aqui",
+    technologies: ["React", "Vite", "Firebase", "Tailwind CSS", "Netlify"],
   },
-  {
-    id: 4,
-    title: "Inventario con firerbase",
-    image: "/inventario.jpeg",
-    urlGithub: "https://github.com/JeffersonMontoya/inventario-vite.git",
-    technologies: ["Vue Js" , "Firebase", "Tailwind"], 
-
-  }
 ];

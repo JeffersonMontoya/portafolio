@@ -1,7 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-import AvatarPortfolio from "@/components/AvatarPortfolio";
-import CircleImage from "@/components/TransitionPage";
 import ContainerPage from "@/components/Container";
 import PortfolioBox from "@/components/PortfolioBox";
 import { dataPortfolio } from "@/data/data";
@@ -11,19 +7,20 @@ const PortfolioPage = () => {
   return (
     <ContainerPage>
       <TransitionPage />
-      <CircleImage />
-      <div className="flex flex-col justify-start px-4 -mt-14">
-        <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-2">
-          Mis últimos{" "}
-          <span className="font-bold text-secondary">trabajos realizados</span>
-        </h1>
+      <div className="flex flex-col justify-center min-h-[60vh]">
+        <div className="text-center mb-10">
+          <h1 className="text-3xl leading-tight md:text-5xl font-bold mb-4">
+            Proyectos <span className="text-secondary">destacados</span>
+          </h1>
+          <p className="text-white/60 max-w-2xl mx-auto text-lg italic">
+            Selección de mis trabajos más recientes en desarrollo Fullstack.
+          </p>
+        </div>
 
-        <div className="relative z-10 px-4 py-10 mx-auto max-w-7xl">
-          <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center">
-            {dataPortfolio.map((data) => (
-              <PortfolioBox key={data.id} data={data} />
-            ))}
-          </div>
+        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto w-full mb-10">
+          {dataPortfolio.map((data) => (
+            <PortfolioBox key={data.id} data={data} />
+          ))}
         </div>
       </div>
     </ContainerPage>

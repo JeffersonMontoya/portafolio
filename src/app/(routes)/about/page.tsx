@@ -1,31 +1,29 @@
-
-import React from 'react'
-import TransitionPage from '@/components/TransitionPage'
-
-import ContainerPage from '@/components/Container'
-import { Avatar } from '@/components/Avatar'
-import CounterServices from '@/components/CounterServices'
-import Timeline from '@/components/Timeline'
+import ContainerPage from "@/components/Container";
+import { Avatar } from "@/components/Avatar";
+import CounterServices from "@/components/CounterServices";
+import Timeline from "@/components/Timeline";
+import TransitionPage from "@/components/TransitionPage";
 
 const AboutPage = () => {
   return (
-    <>
-    <TransitionPage/>
     <ContainerPage>
+      <TransitionPage />
+      <div className="flex flex-col justify-center items-center max-w-5xl mx-auto">
+        <h1 className="text-3xl leading-tight text-center md:text-5xl font-bold mb-6 mt-2">
+          Toda mi{" "}
+          <span className="text-secondary">trayectoria profesional</span>
+        </h1>
 
-      <Avatar/>
-      <h1 className='text-2xl leading-tight text-center md:text md:text-6xl mt-10'>Toda mi {''}
-        <span className='font-bold text-secondary'>trayectoria profesional</span>
-        
-      </h1>
+        <div className="w-full mb-6">
+          <CounterServices />
+        </div>
 
-      <CounterServices/>
-      <Timeline/>
+        <div className="w-full">
+          <Timeline />
+        </div>
+      </div>
     </ContainerPage>
-   
-    </>
+  );
+};
 
-  )
-}
-
-export default AboutPage
+export default AboutPage;
